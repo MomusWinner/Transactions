@@ -5,8 +5,6 @@ create table customers(
     email text not null
 );
 
--- name: UpdateCustomerEmail :exec
-update custoemer set email = $1;
 
 create table products(
     id serial primary key,
